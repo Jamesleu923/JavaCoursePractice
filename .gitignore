@@ -1,1 +1,7 @@
-.metadata
+# Windows:
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+# Eclipse
+.metadata/
+
