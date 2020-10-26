@@ -1,0 +1,16 @@
+package no04;
+import java.util.Scanner;
+public class no4 {
+
+	public static void main(String[] args) {
+		
+		char[] GradeLevel= {'A','B','C','D','E'};		
+		var console=new Scanner(System.in);
+		System.out.print("請輸入學生分數score:");
+		
+		float score=console.nextFloat();
+		
+		
+	}
+
+}

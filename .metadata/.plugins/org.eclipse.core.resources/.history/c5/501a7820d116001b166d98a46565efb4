@@ -1,0 +1,24 @@
+package no04;
+//本題使用隨機取值
+import java.util.Random;
+public class no04 {
+
+	public static void main(String[] args) {
+		int[] MyScore=new int[15];	
+		Random ran = new Random();	
+		 for (int i=0 ;i<MyScore.length;i++) {
+			  //由0分到100分之間任取一數.  //放入陣列之中			
+			  MyScore[i]=ran.nextInt(101);
+			  //印出來看一下隨機取值的結果
+			  if (i%4==0)
+			     System.out.printf("MyScore[%d]=%d%n",i,MyScore[i]);
+			  else
+				 System.out.printf("MyScore[%d]=%d,",i,MyScore[i]); 
+		}
+		       
+
+
+	}
+
+}
+

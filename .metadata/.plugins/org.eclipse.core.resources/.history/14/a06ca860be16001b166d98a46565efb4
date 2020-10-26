@@ -1,0 +1,25 @@
+package no09;
+import java.util.Scanner;
+public class no9 {
+	public static void main(String[] args) {
+		String[] WeekDay=new String[7] ();
+		
+		var console=new Scanner(System.in);
+		System.out.printf("請輸入1~7:");
+		int No=console.nextInt();
+		console.close();
+		
+		if (No<=0 || No>7) {
+			System.out.println("數量錯誤,程式結束!");
+			return;
+		}
+		else {
+			
+		}
+			
+		
+		
+		
+		
+	}
+}

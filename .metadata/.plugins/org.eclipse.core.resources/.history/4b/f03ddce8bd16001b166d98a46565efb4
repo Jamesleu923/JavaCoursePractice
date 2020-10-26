@@ -1,0 +1,8 @@
+package no09;
+import java.util.Scanner;
+public class no9 {
+	public static void main(String[] args) {
+		var console=new Scanner(System.in);
+		System.out.printf("½Ð¿é¤J1~7:");
+	}
+}

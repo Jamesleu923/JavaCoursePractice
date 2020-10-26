@@ -1,0 +1,41 @@
+package no07;
+import java.util.*;
+import java.util.Scanner;
+public class no7 {
+
+	public static void main(String[] args) {
+		
+		var console=new Scanner(System.in);
+		float a,b,c,Max=0,Min=0;
+		System.out.println("叫块计");
+		System.out.print("A:");
+		a=console.nextFloat();
+		System.out.print("B:");
+		b=console.nextFloat();
+		System.out.print("C:");
+		c=console.nextFloat();	
+		
+		//т程
+		if (a>=b && a>=c)
+			Max=a;
+		else if (b>=a && b>=c)
+			Max=b;
+		else if (c>=a && c>=b)
+			Max=c;
+		else
+			Max=-1;
+		
+		//т程
+		if (a<=b && a<=c)
+			Min=a;
+		else if (b<=a && b<=c)
+			Min=b;
+		else if (c<=a && c<=b)
+			Min=c;
+		else
+			Min=-1;
+		
+		System.out.printf("程%f,程%f", Max,Min);
+	}
+
+}

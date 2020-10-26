@@ -1,0 +1,27 @@
+package no06;
+// 使用List需引入java.util.*
+import java.util.*;
+import java.util.Scanner;
+public class no6 {
+
+	public static void main(String[] args) {
+		
+		var console=new Scanner(System.in);
+		// List串列需使用Float物件型別,而非float 變數型別.大小寫不同有差.
+		List <Float> StdScore=new ArrayList<>();
+		
+		//要使用do..while迴圈輸入，故在此score1,score2..score5改用Float物件陣列型態.
+	    //以方便do..while操作
+		Float[] score=new Float[5];
+		int i=0;
+		do {
+			System.out.printf("請輸入第%d位學生成績:", i+1);
+			score[i]=console.nextFloat();
+			System.out.printf("%n");
+		}while (i<5);
+
+		System.out.print("請輸入學生分數score:");	
+
+	}
+
+}

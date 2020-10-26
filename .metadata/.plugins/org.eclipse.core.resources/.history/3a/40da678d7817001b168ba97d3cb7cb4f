@@ -1,0 +1,24 @@
+package no02;
+
+public class no2 {
+	public static void main(String[] args) {
+		String[] Penghu ={"陽光","沙灘","比基尼"};
+		// 使用ArrayCopyOf，宣告後直接用，不用初始化，方便許多
+		// 但限定JDK 6以上版本
+		// 舊的System.arrayCopy 方法要先宣告:String[] nature=new String[2];
+		// 舊的System.arrayCopy 方法要先宣告:String[] human =new String[1];
+		
+
+		ShowMyArray("Penghu",Penghu);
+		ShowMyArray("nature",nature);
+		ShowMyArray("human",human);
+	}
+	
+    public static void ShowMyArray(String ArrayName,String[] Array) {	    	
+    	System.out.printf("陣列名稱:%s, 內容有:",ArrayName);
+    	for (String elements :Array)
+    		System.out.printf(" %s ,",elements);
+    	
+    	System.out.println(".");
+    }
+}

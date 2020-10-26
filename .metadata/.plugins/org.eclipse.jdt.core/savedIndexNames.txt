@@ -1,0 +1,1 @@
+INDEX VERSION 1.131+C:\Users\Jamesleu923\eclipse-workspace\CourseTest\.metadata\.plugins\org.eclipse.jdt.core

@@ -1,0 +1,10 @@
+package no08;
+import java.util.Scanner;
+public class no8 {
+
+	public static void main(String[] args) {
+		var console=new Scanner(System.in);
+
+	}
+
+}

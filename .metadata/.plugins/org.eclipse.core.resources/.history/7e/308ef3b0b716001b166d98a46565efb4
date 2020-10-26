@@ -1,0 +1,17 @@
+package no06;
+// 使用List需引入java.util.*
+import java.util.*;
+import java.util.Scanner;
+public class no6 {
+
+	public static void main(String[] args) {
+		float score1,score2,score3,score4, score5;
+		// List串列需使用Float物件型別,而非float 變數型別.大小寫不同有差.
+		List <Float> score=new ArrayList<>();
+		
+		var console=new Scanner(System.in);
+		System.out.print("請輸入學生分數score:");	
+
+	}
+
+}

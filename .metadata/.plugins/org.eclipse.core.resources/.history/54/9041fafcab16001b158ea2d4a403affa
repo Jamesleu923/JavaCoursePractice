@@ -1,0 +1,20 @@
+package Q05;
+
+public class Q05 {
+
+	public static void main(String[] args) {
+		byte A;
+		short B,C;
+		
+		A=(byte) -129;
+		B=(short) 32768;
+		C=-32768;
+		
+		System.out.printf("A:%d, B:%d,C:%d",A,B,C);
+
+		// A:-129　超過byte型別值域，用了強制轉型，只會印出true
+		// B:32768 超過short 型別值域，用了強制轉型，只會印出true
+		//A:true, B:-32768,C:-32768
+	}
+
+}

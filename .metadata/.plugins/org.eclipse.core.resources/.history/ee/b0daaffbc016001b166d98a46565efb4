@@ -1,0 +1,32 @@
+package no10;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.Scanner;
+public class no10 {
+	public static void main(String[] args) {
+		
+		//String[] WeekDay= {"星期一","星期二","星期三","星期四","星期五","星期六","星期日" } ;
+		
+		var console=new Scanner(System.in);
+		System.out.printf("請輸入你出生西元年:");
+		int BirthYear=console.nextInt();
+		console.close();
+		
+		Calendar NowTime = Calendar.getInstance(); 
+		int NowYear = NowTime.get(Calendar.YEAR); //，當前年份
+
+		
+		if (NowYear-BirthYear<=0) {
+			System.out.printf("你年紀太小!才%d歲",NowYear-BirthYear);
+			return;
+		}
+		else {
+			System.out.printf("%n 您輸入%d,所以印出%s %n",1,"2");
+		}
+			
+		
+		
+		
+		
+	}
+}

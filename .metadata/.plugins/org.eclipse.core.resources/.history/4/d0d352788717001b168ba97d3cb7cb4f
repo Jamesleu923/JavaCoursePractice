@@ -1,0 +1,26 @@
+package no09;
+
+public class no09 {
+
+	public static void main(String[] args) {
+	   String [] CardKind= {"梅花","紅心","紅鑽","黑桃"};
+	   String [] CardNumber =new String[13];
+	   
+	   // 懶
+	   // 初始化PlayCard的A, 2,3,4...J,Q,K
+	   for (int i=0;i<CardNumber.length;i++) {
+		   if (i==0)
+			   CardNumber[i]="A";
+		   else if (i==11)
+			   CardNumber[i]="J";
+		   else if (i==12)
+			   CardNumber[i]="Q";
+		   else if (i==13)
+			   CardNumber[i]="K";
+		   else
+			   CardNumber[i]=String.valueOf(i).toString();
+	   }
+
+	}
+
+}

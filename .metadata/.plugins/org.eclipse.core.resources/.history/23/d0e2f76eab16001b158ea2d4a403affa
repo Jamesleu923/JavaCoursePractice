@@ -1,0 +1,16 @@
+package Q05;
+
+public class Q05 {
+
+	public static void main(String[] args) {
+		byte A;
+		short B,C;
+		
+		A=-129;
+		B=32768;
+		C=-32768;
+		
+
+	}
+
+}

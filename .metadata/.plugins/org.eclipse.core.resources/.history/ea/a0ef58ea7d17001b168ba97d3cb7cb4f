@@ -1,0 +1,23 @@
+package no06;
+
+package test;import java.util.Date;
+
+public class TestUuid extends Date{
+
+public static void main(String[] args) {
+
+new TestUuid.test;
+
+}
+
+public void test{
+
+System.out.println(super.getClass.getName);//test.TestUuid 包名加類名
+
+System.out.println(super.getClass.getSuperclass.getName); //java.util.Date 完整父類名
+
+System.out.println(super.getClass.getSuperclass.getSuperclass.getName); //java.lang.Object 完整祖父類名
+
+
+
+原文網址：https://kknews.cc/code/ex5ynz.html

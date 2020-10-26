@@ -1,0 +1,50 @@
+package no04;
+//本題使用隨機取值
+import java.util.Random;
+public class no04 {
+
+	public static void main(String[] args) {
+		int[] MyScore=new int[15];	
+		Random ran = new Random();	
+		 for (int i=0 ;i<MyScore.length;i++) {
+			  //由0分到100分之間任取一數.  //放入陣列之中			
+			  MyScore[i]=ran.nextInt(101);
+			  //印出來看一下隨機取值的結果
+			  if ((i+1)%5==0) //每印五個換一列
+			     System.out.printf("MyScore[%d]=%d%n",i,MyScore[i]);
+			  else
+				 System.out.printf("MyScore[%d]=%d, ",i,MyScore[i]); 
+		}
+		
+		VisitByFor(MyScore);
+		 
+	}
+	//(一). 寫一個可供呼叫，傳入陣列的函式：
+    //static void VisitByFor (int[] array) { //  }，
+    //其函式程式碼為利用for 迴圈走訪一次，印出全部資料。
+	static void VisitByFor (int[] array) { 
+		System.out.printf("%n%n-----這是VisitByFor印出的--------%n");
+		for (int i=0;i<array.length;i++) {
+			  if ((i+1)%5==0) //每印五個換一列
+				     System.out.printf("MyScore[%d]=%d%n",i,array[i]);
+				  else
+					 System.out.printf("MyScore[%d]=%d, ",i,array[i]); 
+		}
+		System.out.printf("-----這是VisitByFor 結束--------%n%n");	
+	}
+	//(二). 寫一個可供呼叫，傳入陣列的函式
+    //static void VisitByDoWhile (int[] array) 
+    //其函式程式碼為利用do..while迴圈走訪一次，印出全部資料
+	static void VisitByDoWhile (int[] array) { 
+		System.out.printf("%n%n-----這是VisitByDoWhile印出的--------%n");
+		for (int i=0;i<array.length;i++) {
+			  if ((i+1)%5==0) //每印五個換一列
+				     System.out.printf("MyScore[%d]=%d%n",i,array[i]);
+				  else
+					 System.out.printf("MyScore[%d]=%d, ",i,array[i]); 
+		}
+		System.out.printf("-----這是VisitByDoWhile 結束--------%n%n");	
+	}
+	
+}
+

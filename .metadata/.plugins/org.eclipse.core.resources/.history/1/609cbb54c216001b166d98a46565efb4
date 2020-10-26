@@ -1,0 +1,19 @@
+package no11;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.Scanner;
+public class no11 {
+	public static void main(String[] args) {
+
+		var console=new Scanner(System.in);
+		System.out.printf("請輸入一個數字:");
+		int NumberLevel=console.nextInt();
+		console.close();
+	    var result=1;
+		//十一、 在不使用遞迴的狀況下,寫一個程式，由使用者輸入一個數字，使用for迴圈計算其階乘值。（ex: 4!=4x3x2x1=24 ）
+		for (int i=1; i<=NumberLevel;i++)
+			result*=i;
+			
+		System.out.printf("%d!=%d", NumberLevel,result);
+	}
+}

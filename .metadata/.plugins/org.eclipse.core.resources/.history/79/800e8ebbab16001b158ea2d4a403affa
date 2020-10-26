@@ -1,0 +1,17 @@
+package Q05;
+
+public class Q05 {
+
+	public static void main(String[] args) {
+		byte A;
+		short B,C;
+		
+		A=(byte) -129;
+		B=(short) 32768;
+		C=-32768;
+		
+		System.out.printf("A:%b, B:%d,C:%d",A,B,C);
+
+	}
+
+}

@@ -1,0 +1,18 @@
+package Q04;
+
+public class Q04 {
+
+	public static void main(String[] args) {
+		
+		float MaxU,MinU,AvgU;
+		double DouA,DouB;
+		
+	    MaxU=7.23f; MinU=11.32f; AvgU=3.19f;
+	    DouA=4.44; DouB=2.33;
+	    		
+	    System.out.printf("MaxU:%f,MinU:%f,AvgU:%f,DouA:%f,DouB:%f", 
+	    		MaxU,MinU,AvgU,DouA,DouB);	
+
+	}
+
+}

@@ -1,0 +1,10 @@
+package no04;
+import java.util.Scanner;
+public class no4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

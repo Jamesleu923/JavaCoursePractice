@@ -1,0 +1,11 @@
+package no08;
+import java.util.Scanner;
+public class no8 {
+
+	public static void main(String[] args) {
+		var console=new Scanner(System.in);
+		System.out.printf("請輸入您要買的書本數量:");
+
+	}
+
+}

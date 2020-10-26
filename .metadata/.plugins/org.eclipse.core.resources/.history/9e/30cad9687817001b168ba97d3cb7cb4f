@@ -1,0 +1,24 @@
+package no02;
+
+public class no2 {
+	public static void main(String[] args) {
+		String[] Penghu ={"陽光","沙灘","比基尼"};
+		String[] nature=new String[2];
+		String[] human =new String[1];
+		
+		//System.arraycopy(來源, 起始索引, 目的, 起始索引, 複製長度)
+		System.arraycopy(Penghu,0, nature, 0, 2);
+		System.arraycopy(Penghu, 2, human, 0, 1);
+		ShowMyArray("Penghu",Penghu);
+		ShowMyArray("nature",nature);
+		ShowMyArray("human",human);
+	}
+	
+    public static void ShowMyArray(String ArrayName,String[] Array) {	    	
+    	System.out.printf("陣列名稱:%s, 內容有:",ArrayName);
+    	for (String elements :Array)
+    		System.out.printf(" %s ,",elements);
+    	
+    	System.out.println(".");
+    }
+}

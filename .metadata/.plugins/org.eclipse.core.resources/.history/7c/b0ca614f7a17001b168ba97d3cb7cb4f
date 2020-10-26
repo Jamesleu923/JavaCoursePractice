@@ -1,0 +1,21 @@
+package no05;
+
+public class no5 {
+
+	public static void main(String[] args) {
+		String str1 = "I love Java.";
+		String str2 = "enjoy Java.";
+
+		char cin = str1.charAt(7);
+		String str3 = str2.substring(6, 10);
+		System.out.println("I love Java.第6字元是：" + cin);
+		System.out.println("enjoy Java.取出6~10之子字串" + str3);
+		char[] cary = str1.toCharArray();
+		for (char charAry : cary) {
+		   System.out.print("字元陣列：" + charAry + "\t");
+		}
+		str2.getChars(6, 10, cary, 2);
+		System.out.println(cary);
+	}
+
+}

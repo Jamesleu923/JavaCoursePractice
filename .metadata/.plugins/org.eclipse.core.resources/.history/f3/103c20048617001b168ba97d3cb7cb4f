@@ -1,0 +1,12 @@
+package no09;
+
+public class no09 {
+
+	public static void main(String[] args) {
+	   String [] CardKind= {"梅花","紅心","紅鑽","黑桃"};
+	   String [] CardNumber =new String[13];
+	   
+
+	}
+
+}

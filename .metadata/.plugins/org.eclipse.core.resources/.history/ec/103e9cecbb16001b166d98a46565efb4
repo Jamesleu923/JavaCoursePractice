@@ -1,0 +1,11 @@
+package no07;
+import java.util.*;
+import java.util.Scanner;
+public class no7 {
+
+	public static void main(String[] args) {
+		var console=new Scanner(System.in);
+
+	}
+
+}

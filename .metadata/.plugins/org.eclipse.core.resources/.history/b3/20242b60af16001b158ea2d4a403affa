@@ -1,0 +1,11 @@
+package no03;
+//要引入下方套件,才可以由使用者輸入.
+import java.util.Scanner;
+public class no03 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package no07;
+/*
+1.tolowercase() method
+2.toUppercase () method
+*/
+public class no7 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

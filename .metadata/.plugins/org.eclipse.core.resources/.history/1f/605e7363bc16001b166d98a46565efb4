@@ -1,0 +1,32 @@
+package no07;
+import java.util.*;
+import java.util.Scanner;
+public class no7 {
+
+	public static void main(String[] args) {
+		
+		var console=new Scanner(System.in);
+		float a,b,c,Max=0,min=0;
+		System.out.println("請輸入三個數字");
+		System.out.print("A:");
+		a=console.nextFloat();
+		System.out.print("B:");
+		b=console.nextFloat();
+		System.out.print("C:");
+		c=console.nextFloat();	
+		
+		//找最大值
+		if (a>b && a>c)
+			Max=a;
+		else if (b>a && b>c)
+			Max=b;
+		else if (c>a && c>b)
+			Max=c;
+		else
+			Max=0;
+		
+		
+		
+	}
+
+}

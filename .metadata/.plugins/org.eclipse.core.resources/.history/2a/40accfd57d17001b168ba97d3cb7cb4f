@@ -1,0 +1,10 @@
+package no06;
+
+public class TestUuid {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

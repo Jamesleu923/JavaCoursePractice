@@ -1,0 +1,24 @@
+package no08;
+//排序必要引入的類別
+import java.util.Arrays;
+public class no8 {
+
+	public static void main(String[] args) {
+		 // initializing unsorted int array
+	    int[] MyArray = {9,8,7,2,3,4,1,0,6,5};
+
+	    // 印出原本樣式
+	    for (int number : MyArray) {
+	      System.out.println("MyArray陣列內容:" + number);
+	    }
+
+	    // sorting array
+	    Arrays.sort(MyArray);
+
+	    // let us print all the elements available in list
+	    System.out.println("The sorted int array is:");
+	    for (int number : iArr) {
+	      System.out.println("Number = " + number);
+	    }
+	  }
+	}
